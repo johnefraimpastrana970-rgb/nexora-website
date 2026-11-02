@@ -31,8 +31,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Reassemble website archive
         run: |
-          if [ -f site.zip.part-v5-01 ] && [ -f site.zip.part-v5-02 ] && [ -f site.zip.part-v5-03 ] && [ -f site.zip.part-v5-04 ] && [ -f site.zip.part-v5-05 ] && [ -f site.zip.part-v5-06 ] && [ -f site.zip.part-v5-07 ] && [ -f site.zip.part-v5-08 ] && [ -f site.zip.part-v5-09 ]; then
-            cat site.zip.part-v5-01 site.zip.part-v5-02 site.zip.part-v5-03 site.zip.part-v5-04 site.zip.part-v5-05 site.zip.part-v5-06 site.zip.part-v5-07 site.zip.part-v5-08 site.zip.part-v5-09 > site.zip
+          if [ -f site.zip.part-v6-01 ] && [ -f site.zip.part-v6-02 ] && [ -f site.zip.part-v6-03 ] && [ -f site.zip.part-v6-04 ] && [ -f site.zip.part-v6-05 ] && [ -f site.zip.part-v6-06 ] && [ -f site.zip.part-v6-07 ] && [ -f site.zip.part-v6-08 ] && [ -f site.zip.part-v6-09 ]; then
+            cat site.zip.part-v6-01 site.zip.part-v6-02 site.zip.part-v6-03 site.zip.part-v6-04 site.zip.part-v6-05 site.zip.part-v6-06 site.zip.part-v6-07 site.zip.part-v6-08 site.zip.part-v6-09 > site.zip
           fi
       - name: Unpack website
         run: |
